@@ -1,2 +1,2 @@
-# OnlineMIS
-This project is mainly write in servlet, contained in Tomcat. After login, you can make every CRUD operation over the personnel data.
+This is an online B/S structure MIS in model II pattern with J2EE and HTML technology, Tomcat served as the container. After logging in legally(here you can login with ‘rush’ as both username and password), then you are able to perform every CRUD operation over the personnel data. Several techniques were helped to make the website robust and user-friendly such as visitor counter, illegal login preventer, cookie, etc.
+Refer to ‘ProjectDetails.pdf’ for more details.
