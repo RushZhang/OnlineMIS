@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+
+<!-- JSPC servlet mappings start -->
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>first</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.first</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>first</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>third</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.third</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>third</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/third</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>login</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>loginvalidator</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.LoginValidator</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginvalidator</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/loginvalidator</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>welcome</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.Welcome</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>welcome</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>main</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.Main</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>main</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+       <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>ok</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.Ok</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ok</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/ok</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+   <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>error</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.Error</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>error</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/error</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>delusercl</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.DelUserCl</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>delusercl</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/delusercl</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>update</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.Update</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>update</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>updatecl</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.UpdateCl</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>updatecl</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/updatecl</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>adduser</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.AddUser</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>adduser</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/adduser</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+    <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>addusercl</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.AddUserCl</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addusercl</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/addusercl</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+     <servlet>
+        <!--give name to your servlet, randomly-->
+        <servlet-name>searchuser</servlet-name>
+        <!--indicate the path: package name+class name -->
+        <servlet-class>com.rush.SearchUser</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>searchuser</servlet-name>
+        <!--the input url of the servlet-->
+        <url-pattern>/searchuser</url-pattern>
+    </servlet-mapping>
+
+
+
+
+<!-- JSPC servlet mappings end -->
+
+</web-app>
